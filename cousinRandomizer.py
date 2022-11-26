@@ -5,8 +5,7 @@ import datetime
 from twilio.rest import Client
 
 
-account_sid = 'ACc484b52c91d9fe2e4590aa7f3b9c1884'
-auth_token = '9e85ff4c9c18eae1b2cb4505456374e6'
+
 client = Client(account_sid, auth_token)
 from_number = '+13253088249'
 to_number = '3462549945'
